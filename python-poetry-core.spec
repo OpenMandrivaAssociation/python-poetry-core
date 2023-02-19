@@ -1,7 +1,7 @@
 Name:		python-poetry-core
-Version:	1.3.2
+Version:	1.5.0
 Release:	1
-Source0:	https://files.pythonhosted.org/packages/source/p/poetry-core/poetry-core-%{version}.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/p/poetry-core/poetry_core-%{version}.tar.gz
 Summary:	Poetry PEP 517 Build Backend
 URL:		https://pypi.org/project/poetry-core/
 License:	MIT
@@ -14,7 +14,7 @@ BuildArch:	noarch
 Poetry PEP 517 Build Backend
 
 %prep
-%autosetup -p1 -n poetry-core-%{version}
+%autosetup -p1 -n poetry_core-%{version}
 
 %build
 %py_build
