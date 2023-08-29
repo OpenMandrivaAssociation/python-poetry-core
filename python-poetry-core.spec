@@ -1,6 +1,6 @@
 Name:		python-poetry-core
-Version:	1.5.1
-Release:	2
+Version:	1.7.0
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/poetry-core/poetry_core-%{version}.tar.gz
 Summary:	Poetry PEP 517 Build Backend
 URL:		https://pypi.org/project/poetry-core/
